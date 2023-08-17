@@ -1,0 +1,94 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    height: 50px;
+    max-width: 100%;
+    padding: 6px;
+    background-color: #ecf0f1;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92vh;
+    background: linear-gradient(#34495e, #6382a0);
+}
+
+.link {
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.link:hover {
+    color: #ff7f50;
+}
+
+.cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.images {
+    height: 250px;
+    width: 400px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    padding: 4%;
+    background-image: url('../public/images/photo.jpeg');
+    background-size: cover;
+}
+
+.text {
+    display: flex;
+    align-items: flex-start;
+    height: 250px;
+    width: 400px;
+    color: white;
+    width: 100%;
+    text-align: initial;
+    padding: 4%;
+    font-size: 20px;
+    margin-right: 10px;
+    line-height: 35px;
+}
+
+.contsvg {
+    display: flex;
+    justify-content: flex-end;
+    width: 88%;
+}
+
+.linkdin {
+    padding: 10px;
+    margin-left: 7px;
+}
+
+.linkdin:hover {
+    cursor: pointer;
+}
+
+.github {
+    padding: 10px;
+}
+
+.github:hover {
+    cursor: pointer;
+}
+
+.Th1 {
+    text-align: center;
+    color: rgb(255, 251, 251);
+    padding: 10px;
+}
+
+.soft {
+    background: linear-gradient(#6382a0, #557697);
+    display: flex;
+    flex-direction: column;
+}
